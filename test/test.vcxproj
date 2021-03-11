@@ -80,7 +80,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\tregu\OneDrive\Документы\OpenGL\glfw-3.3.2.bin.WIN64\include;C:\Users\tregu\OneDrive\Документы\OpenGL\glew-2.2.0\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\tregu\OneDrive\Документы\OpenGL\glm\glm;C:\Users\tregu\OneDrive\Документы\OpenGL\glfw-3.3.2.bin.WIN64\include;C:\Users\tregu\OneDrive\Документы\OpenGL\glew-2.2.0\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\tregu\OneDrive\Документы\OpenGL\glew-2.2.0\lib\Release\x64;C:\Users\tregu\OneDrive\Документы\OpenGL\glfw-3.3.2.bin.WIN64\lib-vc2019;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -145,7 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lab1.cpp" />
+    <ClCompile Include="lab.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
