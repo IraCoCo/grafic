@@ -145,11 +145,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Body.cpp" />
     <ClCompile Include="lab.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Points.cpp" />
     <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="tbezier.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Body.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Points.h" />
     <ClInclude Include="stb_image.h" />
+    <ClInclude Include="tbezier.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
